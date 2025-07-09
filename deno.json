@@ -1,0 +1,18 @@
+{
+  "imports": {
+    "std/": "https://deno.land/std@0.203.0/"
+  },
+  "tasks": {
+    "install": "deno install -gArf --root ~/.global_modules jsr:@deno/deployctl",
+    "deploy:staging": "/home/user/.global_modules/bin/deployctl deploy --project=katsu main.ts",
+    "deploy:prod": "/home/user/.global_modules/bin/deployctl deploy --prod --project=katsu main.ts"
+  },
+  "deploy": {
+    "project": "60996761-0856-4410-a276-1d8b86bd37fa",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "main.ts"
+  }
+}
