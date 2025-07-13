@@ -35,9 +35,9 @@ export default async function RandomMeal() {
             </div>
 
             <div class="flex items-center justify-center gap-4 pt-4">
-            <NavButton href="/">🍱 See Katsu Recipe</NavButton>
+            <NavButton href="/" className="btn btn-primary">🍱 See Katsu Recipe</NavButton>
             <span class="text-gray-400">|</span>
-            <NavButton href="/random">🔄 Get Another Recipe</NavButton>
+            <NavButton href="/random" className="btn btn-accent">🔄 Get Another Recipe</NavButton>
             </div>
 
           </div>

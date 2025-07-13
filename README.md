@@ -23,12 +23,13 @@ Make sure you have Deno installed on your system. If not, you can install it by 
 2. Install `deployctl`
 
 ```
-deno install
+deno task install
 ```
 
-3. Deploy to Deno Deploy
+3. Build and Deploy to Deno Deploy
 
 ```
-deno deploy:staging
-# deno deploy:prod
+deno task build
+deno task deploy:staging
+deno task deploy:prod
 ```
