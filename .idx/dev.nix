@@ -26,7 +26,7 @@
         web = {
           # Example: run "npm run dev" with PORT set to IDX's defined port for previews,
           # and show it in IDX's web preview panel
-          command = ["deno" "run" "--allow-net" "--allow-env" "main.ts"];
+          command = ["deno" "task" "start"];
           manager = "web";
           env = {
             # Environment variables to set for your server
