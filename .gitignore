@@ -11,4 +11,4 @@ _fresh/
 node_modules/
 
 # back up files
-*.bak.*
+*.bak
