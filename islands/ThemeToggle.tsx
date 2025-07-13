@@ -9,13 +9,13 @@ export default function ThemeToggle() {
     if (saved !== null) {
       const dark = JSON.parse(saved);
       setIsdark(dark);
-      document.documentElement.setAttribute("data-theme", dark ? "halloween" : "light");
+      document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
     }
   }, []);
   
   useEffect(() => {
     localStorage.setItem("isdark", JSON.stringify(isdark));
-    document.documentElement.setAttribute("data-theme", isdark ? "halloween" : "light");
+    document.documentElement.setAttribute("data-theme", isdark ? "dark" : "light");
   }, [isdark]);
 
   return (
