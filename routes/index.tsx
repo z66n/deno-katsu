@@ -42,7 +42,7 @@ export default function KatsuPage() {
             </div>
 
             <div class="text-center pt-4">
-            <NavButton href="/random">🔄 Try a Random Recipe</NavButton>
+            <NavButton href="/random" className="btn btn-accent">🔄 Try a Random Recipe</NavButton>
             </div>
 
           </div>
